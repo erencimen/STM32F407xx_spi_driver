@@ -8,7 +8,7 @@ SPI driver is not support multimaster configuration.
 
 For test the SPI driver STM32F4DISCOVERY Board and ARDUNIO UNO R3 boards are used.
 
-___________________________________________________________CONNECTIONS___________________________________________________________________
+# CONNECTIONS
 
                                         STM32F4DISCOVERY                  ARDUNIO UNO
 
