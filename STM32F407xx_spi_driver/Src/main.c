@@ -380,6 +380,9 @@ int main(void)
 			//Read the Ardunio ID recieved
 			SPI_ReceiveData(SPI2, &Ardunio_ID, 1);
 		}
+		
+		SPI_PeripheralControl(SPI2, DISABLE);
+
 	}
 
 }
