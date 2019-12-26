@@ -380,7 +380,9 @@ int main(void)
 			//Read the Ardunio ID recieved
 			SPI_ReceiveData(SPI2, &Ardunio_ID, 1);
 		}
-		
+
+		while (SPI_GetFlagStatus(SPI2, SPI_BUSY_FLAG)) ;
+
 		SPI_PeripheralControl(SPI2, DISABLE);
 
 	}
